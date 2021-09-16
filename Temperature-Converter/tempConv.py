@@ -3,8 +3,8 @@ import sys
 # Convert Fahrenheit to Celsius
 def F_to_C():
     input_F = input("Enter Fahrenheit value: ")
-    F_Conv = (float(input_F)-32.0)*(5/9)
-    C_Out = str(F_Conv) + '°C'
+    C_Conv = (float(input_F)-32.0)*(5/9)
+    C_Out = str(C_Conv) + '°C'
     print(C_Out)
 
 # Convert Celsius to Fahrenheit
